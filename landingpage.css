@@ -116,14 +116,27 @@ header {
 }
 
 .mentor {
-  margin-top: 25px;
-  font-size: 1em;
+  margin-top: 35px;
+  color: #050506;
+  
 }
 
+
 .mentor a {
+color: #050506;
+font-size: 1em; 
+font-weight: 500;
+padding: 10px;
+max-width: 200px;
+border: 1px solid #050506;
+border-radius: 6px;
+background-color: #F1E6D1;
+}
+
+.mentor a:hover{
+  background-color: #050506;
   color: #F1E6D1;
-  font-weight: 600;
-  text-decoration: underline;
+  transition: 1s;
 }
 
 .hero-image img {
