@@ -4,34 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Khaleed - Aspiring Full Stack Developer. Portfolio showcasing web development projects and skills.">
+  <meta name="description" content="Khaleed - Aspiring Full Stack Developer.">
   <title>Khaleed - Full Stack Developer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <link rel="stylesheet" href="./landingpage.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <link rel="stylesheet" href="./landingpage.css">
+  <link rel="stylesheet" href="./landingpage.css">
 </head>
 
 <body>
-  <!-- header section -->
-  <header>
-    <nav class="header">
-      <div class="logo-name">
-        <p>KHALEED</p>
-      </div>
-
-      <div class="navi">
-        <ul class="list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand logo-name" href="#">KHALEED</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
-
-      <div class="menu-icon">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <!-- hero section -->
   <section class="hero" id="about">
@@ -129,7 +140,6 @@
           <div style="width: 80%"></div>
         </div>
       </div>
-
       <div class="skill">
         <div class="skill-header">
           <p>Tailwind</p>
@@ -192,8 +202,8 @@
 
     <div class="contact-links">
       <a href="mailto:khaleedogunlade@gmail.com">Email</a>
-      <a href="https://x.com/khaleed_th"><i class="fa-brands fa-x-twitter"></i></a>
-      <a href="">GitHub</a>
+      <a href="https://x.com/khaleed_th"><i class="fa-brands fa-x-twitter"></i></i></a>
+      <a href=""><i class="fa-brands fa-github"></i> GitHub</a>
     </div>
   </section>
 
@@ -202,6 +212,7 @@
     <p>© 2025 Khaleed — All Rights Reserved.</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
